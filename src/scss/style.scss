@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+html,
+body {
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+}
+.container {
+  display: block;
+  width: 500px;
+  margin: 50px auto;
+  background-image: url("../img/piyo.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 80px auto;
+  padding-bottom: 120px;
+}
+h1 {
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+.list {
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+  &__block {
+    width: 240px;
+    &--1 {
+      background-color: #e2dcf3;
+    }
+    &--2 {
+      background-color: #f3dfdc;
+    }
+    &--3 {
+      background-color: #f3f3dc;
+    }
+    &--4 {
+      background-color: #dcebf3;
+    }
+  }
+}
